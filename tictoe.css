@@ -5,13 +5,26 @@ h1 {
 }
 div {
   text-align: center;
-  text-align: center;
-  margin: 0;
+  margin: 0px auto;
+    text-align: center;
+  margin: auto;
 }
 body {
     background-color: #02c39a;
 }
 
+.cell {
+  width:80px;
+  height:80px;
+  border: 5px solid #000000;
+  background: #FFFFFF;
+  font-size: 46pt;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+
+}
 
 fieldset {
   text-align: center;
@@ -21,4 +34,8 @@ fieldset {
 .cell:hover {
   background: #C2DBFC;
   text-align: center;
+}
+
+table {
+  margin:0 auto;
 }

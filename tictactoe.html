@@ -1,40 +1,41 @@
 <html>
-
 <head>
-  <meta charset="utf-8" />
-  <title>Tic-Tac-Toe</title>
-  <link rel="stylesheet" type="text/css" href="tictoe.css">
-  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-  <script type="text/javascript" src="tictoe.js"></script>
+    <meta charset="utf-8" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" type="text/css" href="tictoe.css">
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="tictoe.js"></script>
 </head>
-
 <body>
 
-  <h1>Ta Te Ti</h1>
+<h1>Ta Te Ti</h1>
 
-  <fieldset>
-    <p>Recargar para elegir quien comienza</p>
 
-    <div class="grilla">
-      <div>
-        <div id="cell_0_0" class="cell">&nbsp;</div>
-        <div id="cell_0_1" class="cell">&nbsp;</div>
-        <div id="cell_0_2" class="cell">&nbsp;</div>
-      </div>
-      <div>
-        <div id="cell_1_0" class="cell">&nbsp;</div>
-        <div id="cell_1_1" class="cell">&nbsp;</div>
-        <div id="cell_1_2" class="cell">&nbsp;</div>
-      </div>
-      <div>
-        <div id="cell_2_0" class="cell">&nbsp;</div>
-        <div id="cell_2_1" class="cell">&nbsp;</div>
-        <div id="cell_2_2" class="cell">&nbsp;</div>
-      </div>
-    </div>
-    <input type=button value="Reset">
-    <br /><br />
+
+<fieldset>
+<p>Recargar para elegir quien comienza</p>
+
+<div>
+<table>
+  <tr>
+    <td id="cell_0_0" class="cell" onClick="JavaScript: clickCelda(0,0);">&nbsp;</td>
+    <td id="cell_0_1" class="cell" onClick="JavaScript: clickCelda(0,1);">&nbsp;</td>
+    <td id="cell_0_2" class="cell" onClick="JavaScript: clickCelda(0,2);">&nbsp;</td>
+  </tr>
+    <tr>
+    <td id="cell_1_0" class="cell" onClick="JavaScript: clickCelda(1,0);">&nbsp;</td>
+    <td id="cell_1_1" class="cell" onClick="JavaScript: clickCelda(1,1);">&nbsp;</td>
+    <td id="cell_1_2" class="cell" onClick="JavaScript: clickCelda(1,2);">&nbsp;</td>
+  </tr>
+    <tr>
+    <td id="cell_2_0" class="cell" onClick="JavaScript: clickCelda(2,0);">&nbsp;</td>
+    <td id="cell_2_1" class="cell" onClick="JavaScript: clickCelda(2,1);">&nbsp;</td>
+    <td id="cell_2_2" class="cell" onClick="JavaScript: clickCelda(2,2);">&nbsp;</td>
+  </tr>
+  </table>
+  </div>
+<input type=button onClick="Javascript: reset();" value="Reset">
+  <br/><br/>
 
 </body>
-
 </html>
